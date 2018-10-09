@@ -71,6 +71,8 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   holiday_hash.map do |hash_season, hash_holiday|
     puts "#{hash_season}:"
+    hash_holiday.map do |hash_holiday, supply_array|
+      puts ""
 end
 
 def all_holidays_with_bbq(holiday_hash)
