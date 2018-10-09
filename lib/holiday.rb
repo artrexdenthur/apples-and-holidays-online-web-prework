@@ -87,6 +87,7 @@ def all_holidays_with_bbq(holiday_hash)
       array_BBQ << holiday if supply_array.any? { |x| x == 'BBQ' }
     end
   end
+  array_BBQ
 end
 
 
